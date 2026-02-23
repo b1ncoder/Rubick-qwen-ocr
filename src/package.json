@@ -1,11 +1,13 @@
 {
-  "name": "QwenOCR",
-  "version": "1.1.0",
-  "pluginName": "QwenOCR",
-  "description": "基于通义千问大模型的智能 OCR 识别工具",
-  "main": "index.html",
-  "logo": "logo.png",
+  "name": "qwen-ocr-rubick",
+  "displayName": "QwenOCR",
+  "version": "1.1.1",
+  "description": "基于通义千问大模型的智能 OCR 识别工具 (Rubick 适配版)",
+  "author": "huhusmang (forked & adapted for Rubick)",
+  "main": "preload.js",
   "preload": "preload.js",
+  "logo": "logo.png",
+  "private": true,
   "features": [
     {
       "code": "qwen_ocr",
